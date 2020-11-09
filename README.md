@@ -40,7 +40,7 @@ Step 4. Check the test works fine:
 cargo test
 ```
 
-Step 5. Install **wasm-pack** if it is not installed yet. For more documentation read [https://rustwasm.github.io/wasm-pack/book/].
+Step 5. Install **wasm-pack** if it is not installed yet. For more documentation read https://rustwasm.github.io/wasm-pack/book/.
 ```
 curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 ```
