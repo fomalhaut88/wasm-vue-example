@@ -1,4 +1,4 @@
-# Vue + Rust, mininal example
+# Vue + Rust mininal example
 
 
 ## Prepare a Rust library
