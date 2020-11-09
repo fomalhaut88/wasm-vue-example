@@ -77,12 +77,12 @@ Step 2. Turn off **ESLint**:
 npm remove @vue/cli-plugin-eslint
 ```
 
-Step 2. Install **myrustlib** as a JS package:
+Step 3. Install **myrustlib** as a JS package:
 ```
 npm i ../myrustlib/pkg-web
 ```
 
-Step 3. Import **myrustlib** in **main.js**:
+Step 4. Import **myrustlib** in **main.js**:
 ```js
 import('myrustlib').then(myrustlib => {
   Vue.prototype.$myrustlib = myrustlib
@@ -93,7 +93,7 @@ import('myrustlib').then(myrustlib => {
 })
 ```
 
-Step 4. Now you can access myrustlib in any component you want. For example (in App.vue):
+Step 5. Now you can access myrustlib in any component you want. For example (in App.vue):
 ```js
 ...
 <h2>Result is {{ getResult() }}</h2>
